@@ -1,0 +1,89 @@
+body {
+    background-image: url(/Task-Website-Default/02-css/img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    margin: 0;
+}
+.jal {
+    width: 50%;
+    animation-direction: reverse;
+}
+
+#logoatas {
+    background-color: red;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    line-height: 30px;
+}
+#logo {
+    width: 150px;
+}
+#atasanHAC {
+    color: white;
+    margin-right: 20px;
+}
+#sss {
+    display: flex;
+}
+#HAC {
+    list-style: none;
+    font-weight:bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+#HAC:hover {
+    color: blanchedalmond;
+}
+#kotak {
+    background: linear-gradient(to bottom right, lightblue, rgba(144, 238, 144, 0.664), wheat, rgb(241, 229, 229));
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    padding-top: 7px;
+}   
+#sect {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#judulatas {
+    font-weight: bold;
+    font-size: 160%;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+#judultext {
+    font-weight: normal;
+    font-size: 90%;
+    color: purple;
+    text-decoration: none;
+}
+#judultext:hover {
+    color: royalblue;
+}
+#bacaan {
+    font-size: 90%;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    line-height: 120%;
+}
+#bawahan {
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    bottom: 0px;
+    line-height: 30px;
+    font-size: 80%;
+}

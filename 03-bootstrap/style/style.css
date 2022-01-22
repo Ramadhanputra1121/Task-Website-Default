@@ -1,0 +1,146 @@
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(blue), color-stop(purple), color-stop(red), color-stop(orange), to(yellow));
+  background: linear-gradient(to bottom right, blue, purple, red, orange, yellow);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.col-md-1 {
+  background-color: white;
+  border-radius: 5px;
+  border: 2px black solid;
+  margin: 0px 450px 0px 450px;
+  padding: 10px;
+}
+
+.col-md-1 .kotak {
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.col-md-1 .kotak .myapp {
+  margin-left: 15px;
+  margin-bottom: -25px;
+}
+
+.col-md-1 .kotak .danlogo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin-left: 10px;
+}
+
+.col-md-1 .kotak .danlogo .linktertera {
+  text-align: right;
+  margin: -40px 20px 0px 20px;
+}
+
+.col-md-1 .kotak .danlogo .linktertera .siup {
+  text-decoration: none;
+  font-size: 40%;
+  color: blue;
+}
+
+.col-md-1 .kotak .danlogo .linktertera .siup:hover {
+  color: red;
+}
+
+.col-md-1 .kotak .danlogo .linktertera .log {
+  text-decoration: none;
+  font-size: 40%;
+  color: blue;
+}
+
+.col-md-1 .kotak .danlogo .linktertera .log:hover {
+  color: red;
+}
+
+.col-md-1 .col-md-2 {
+  border: 2px black solid;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.col-md-1 .col-md-2 .applogo {
+  margin: 20px;
+  width: 200px;
+}
+
+.col-md-1 .col-md-2 .appname {
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.col-md-1 .col-md-2 .appname .feature {
+  margin-top: 15px;
+  text-align: justify;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: auto;
+          column-width: auto;
+  font-size: 60%;
+  margin-right: 15px;
+}
+
+.col-md-1 .col-md-3 {
+  -webkit-column-count: 2;
+          column-count: 2;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px -10px 10px -10px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.col-md-1 .col-md-3 .text1 {
+  border: 2px black solid;
+  margin: 0px 20px 20px 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.col-md-1 .col-md-3 .text2 {
+  border: 2px black solid;
+  margin: 20px 20px 0px 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.col-md-1 .col-md-3 .text3 {
+  border: 2px black solid;
+  margin: 0px 0px 20px 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.col-md-1 .col-md-3 .text4 {
+  border: 2px black solid;
+  margin: 20px 0px 0px 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.col-md-1 .col-md-4 {
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.col-md-1 .col-md-4 .copyright {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

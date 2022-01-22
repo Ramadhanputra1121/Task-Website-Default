@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 20px;
+}
+#section {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+#logoatas {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    height: 50px;
+    margin: 5px;
+}
+#atasanimage {
+    display: flex;
+    justify-content: center;
+}
+#image {
+    width: 500px;
+}
+#submitted {
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#submitted:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
+#submitted2 {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+#submitted2:hover {
+    color: black;
+    background-color: blanchedalmond;
+}
+#name1 {
+    display: flex;
+}
+#name2 {
+    margin-right: 10px;
+    font-weight: bold;
+}
+#name3 {
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+#name4 {
+    margin-right: 10px;
+    font-weight: bold;
+}
+#name5 {
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+#gender1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#gender2 {
+    margin-left: -5px;
+    font-weight: normal;
+}
+#nat1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#nat2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#ls1 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ls2 {
+    margin-left: -5px;
+}
+#bio1 {
+    margin-top: 10px;
+    font-weight: bold;
+}

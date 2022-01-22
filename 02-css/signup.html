@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        Sign Up
+    </title>
+</head>
+
+<body>
+    <div id="logoatas">
+        <img id="logo" src="img/logo.png" alt="gedebook">
+        <input id="submitted" href="#" type="submit" name="login" value="Login">
+    </div>
+
+    <section id="section">
+        <div id="atasanimage">
+            <img id="image" src="img/image.jpg">
+        </div>
+
+        <div>
+            <h1>
+                Buat Account Baru!
+            </h1>
+            <h2>
+                Sign Up Form
+            </h2>
+            <form>
+                <div id="name1">
+                    <div id="name2">
+                        <div>Nama Depan</div>
+                        <input id="name3" type="text" name="fName" placeholder="Isi nama depan">
+                    </div>
+
+                    <div id="name4">
+                        <div>Nama Belakang</div>
+                        <input id="name5" type="text" name="lName" placeholder="Isi nama belakang">
+                    </div>
+                </div>
+
+                <div id="gender1">
+                    <label">Gender</label>
+                        <div id="gender2">
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                            <input type="radio" name="Gender" value="Other">Other
+                        </div>
+                </div>
+
+                <div>
+                    <div id="nat1" style="font-weight: bold; margin-bottom: 10px;">
+                        <i class="fa fa-flag"></i> Nationality
+                    </div>
+                    <div>
+                        <select id="nat2" name="Nationality">
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Singapura">Singapura</option>
+                            <option value="Korea">Korea</option>
+                            <option value="Vietnam">Vietnam</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div id="ls1">
+                        <i class="fa fa-language"></i> Language Spoken
+                    </div>
+                    <div id="ls2">
+                        <input type="checkbox" name="language_spoken" value="Bahasa_Indonesia">Indonesia <br>
+                        <input type="checkbox" name="language_spoken" value="English">English <br>
+                        <input type="checkbox" name="language_spoken" value="Other">Other <br>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="bio1" style="margin-top: 10px; font-weight: bold;">
+                        <i class="fa fa-database"> </i> Bio
+                    </div>
+                    <div>
+                        <textarea name="bio" cols="30" rows="10"></textarea><br>
+                        <input id="submitted2" type="submit" name="Submit" value="Sign Up">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
