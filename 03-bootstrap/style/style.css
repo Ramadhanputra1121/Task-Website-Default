@@ -1,12 +1,33 @@
 body {
-  background: -webkit-gradient(linear, left top, right bottom, from(blue), color-stop(purple), color-stop(red), color-stop(orange), to(yellow));
-  background: linear-gradient(to bottom right, blue, purple, red, orange, yellow);
+  background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+  background-size: 500% 500%;
+  -webkit-animation: ignielGradient 12s ease infinite;
+  animation: ignielGradient 12s ease infinite;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+@-webkit-keyframes ignielGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes ignielGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .col-md-1 {
