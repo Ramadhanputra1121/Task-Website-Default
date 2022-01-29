@@ -111,6 +111,8 @@ body {
           column-width: auto;
   font-size: 60%;
   margin-right: 15px;
+  color: white;
+  -webkit-text-stroke: 0.05em red;
 }
 
 .col-md-1 .col-md-3 {
