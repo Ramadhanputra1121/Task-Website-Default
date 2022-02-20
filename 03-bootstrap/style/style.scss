@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
     background-size: 500% 500%;
+    color: black;
     -webkit-animation: ignielGradient 12s ease infinite;
     -moz-animation: ignielGradient 12s ease infinite;
     animation: ignielGradient 12s ease infinite;
@@ -82,8 +83,7 @@ body {
                 column-width: auto;
                 font-size: 60%;     
                 margin-right: 15px;
-                color: white;
-                -webkit-text-stroke: 0.05em red;           
+                color: black;
             }
         }
     }
